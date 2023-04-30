@@ -1,5 +1,5 @@
 import moonbeamLogo from "../../../assets/images/moonbeam-logo.png";
-import { AiOutlineMenu } from "react-icons/ai";
+// import { AiOutlineMenu } from "react-icons/ai";
 import { BsTwitter, BsYoutube } from "react-icons/bs";
 // import { FaMedium } from "react-icons/fa";
 import { RiDiscordFill } from "react-icons/ri";
@@ -23,7 +23,7 @@ const Header = () => {
   });
   const showMenuMobile = () => {
     const menuMobile = document.getElementById("menuMobile");
-    const menuActive = document.getElementById("menuActive");
+    // const menuActive = document.getElementById("menuActive");
     const menuActive1 = document.getElementById("itemMenuActive1");
     const menuActive2 = document.getElementById("itemMenuActive2");
     const menuActive3 = document.getElementById("itemMenuActive3");
