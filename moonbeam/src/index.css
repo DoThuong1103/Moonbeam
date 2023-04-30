@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.AnimationShowMenuMoblie {
+  transition: transform 1.5s;
+  opacity: 1;
+  transform: translateY(0);
+}
+.AnimationHiddenMenuMoblie {
+  transition: transform 1.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(-100px);
+}
+.menuActiveOdd {
+  transition: transform 0.5s ease-in-out;
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 5px);
+}
+.menuActiveEven {
+  transition: transform 0.5s ease-in-out;
+  opacity: 1;
+  transform: rotate(-45deg) translate(0px, -5px);
+}
+@keyframes AnimationShowMenuMoblie {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+}
